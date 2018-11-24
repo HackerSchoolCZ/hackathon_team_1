@@ -35,8 +35,9 @@ class ImageComparison:
         self.threshold = float(treshold)
         loc = np.where(self.res >= self.threshold)
         if any(map(len, loc)):
+            logger.info('Template ' + template + ' found.')
             return True
-        logger.error("Template has not been found.")
+        logger.error("Template " + template + "has not been found.")
         raise ExecutionFailed("Template has not been found.")
 
     def find_images(self, templates, screenshot, treshold=TRESHOLD):
