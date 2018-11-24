@@ -1,0 +1,6 @@
+*** Keywords ***
+Compare Picture
+    [Arguments]    
+    ${template}=    Normalize Path     ${CURDIR}/../Resources/Template/logo.png    
+    ${screenshot}=    Normalize Path    ${CURDIR}/../Resources/Output/screenshot.png
+    Find In Template    ${template}    ${screenshot}
