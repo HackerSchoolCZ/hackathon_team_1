@@ -1,9 +1,0 @@
-*** Settings ***
-Library      SeleniumLibrary
-Resource     ../../Settings/images/images_keywords.txt
-
-*** Keywords ***
-Open Browser and Maximize Window
-    Open Browser and Go to URL    ${BROWSER}    ${URL}
-    Maximize Browser Window
-    
