@@ -1,0 +1,4 @@
+*** Settings ***
+Resource     ../../Keywords/keywords_general.txt
+Variables    ../../Objects/images/objects_images.py
+Variables    ../../Resources/images/variables_images.py

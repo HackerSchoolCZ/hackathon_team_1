@@ -1,0 +1,4 @@
+--outputdir ../../../Results/mahara
+--timestampoutput
+--consolewidth 110
+--pythonpath ../../../Libraries

@@ -1,0 +1,5 @@
+*** Settings ***
+Resource    ../../Keywords/mahara/keywords_mahara.txt
+Variables   ../../Resources/mahara/test_data_mahara.py
+Variables   ../../Resources/mahara/variables_mahara.py
+Variables   ../../Objects/mahara/objects_mahara.py
